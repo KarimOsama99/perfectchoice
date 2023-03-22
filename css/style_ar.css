@@ -712,6 +712,10 @@ button {
   position: relative;
   z-index: 1;
 }
+.carousel-item {
+  background-position: center;
+  background-size: cover;
+}
 @media (min-width: 992px) {
   .home-banner-area {
     height: 600px;
@@ -2419,6 +2423,13 @@ button {
   /* Firefox 18- */
   font-size: 13px;
   color: #777;
+}
+
+.posts-list .feature-img {
+  text-align: center;
+}
+.blog_area .qoutes {
+  font-size: 22px !important;
 }
 
 /*============ End Blog Single Styles  =============*/

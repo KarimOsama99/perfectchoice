@@ -2431,5 +2431,7 @@ button {
 .blog_area .qoutes {
   font-size: 22px !important;
 }
-
+.header_area .media {
+  flex-direction: row-reverse;
+}
 /*============ End Blog Single Styles  =============*/

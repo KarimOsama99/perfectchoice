@@ -92,13 +92,13 @@ button {
   outline: 0;
 }
 
-.section-margin {
+/* .section-margin {
   margin: 70px 0;
-}
+} */
 @media (min-width: 1000px) {
-  .section-margin {
+  /* .section-margin {
     margin: 130px 0;
-  }
+  } */
 }
 .section-margin--small {
   margin: 35px 0;
@@ -185,7 +185,7 @@ button {
   }
 }
 .header_area .navbar .nav .nav-item {
-  margin-right: 45px;
+  margin-left: 45px;
 }
 .header_area .navbar .nav .nav-item .nav-link {
   font-family: "Playfair Display", serif;
@@ -522,7 +522,7 @@ button {
 }
 
 .footer-area {
-  padding: 120px 0px 120px;
+  /* padding: 120px 0px 120px; */
   background: #0b1a2a;
 }
 @media (max-width: 991px) {
@@ -1810,6 +1810,7 @@ button {
 }
 .categories_post img {
   max-width: 100%;
+  height: 67vh;
 }
 .categories_post .categories_details {
   position: absolute;

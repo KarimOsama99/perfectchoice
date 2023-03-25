@@ -75,6 +75,9 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
+.home-banner-btn:hover {
+  background-color: #cca772;
+}
 .button--active {
   padding: 10px 32px !important;
   background: #cca772;
@@ -708,6 +711,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home-banner-btn {
+  cursor: pointer;
 }
 .carousel {
   position: absolute;

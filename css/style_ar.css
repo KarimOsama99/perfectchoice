@@ -679,6 +679,7 @@ button {
 /*=================== home banner start ====================*/
 .home-banner {
   position: relative;
+  z-index: 999;
 }
 .home-banner h4,
 .home-banner h1,
@@ -709,8 +710,8 @@ button {
   height: 500px;
   background: url("../img/home/header-bg.jpg") center center no-repeat;
   background-size: cover;
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  z-index: 999;
 }
 .carousel-item {
   background-position: center;
@@ -753,11 +754,12 @@ button {
 .home-banner-btn {
   border: 2px solid #cca772;
   padding: 10px 45px;
+  cursor: pointer;
+  z-index: 999;
 }
 .home-banner-btn:hover {
   background: #cca772;
-  color: #fff;
-}
+  color: #fff;}
 
 /*=================== home banner end ====================*/
 /*=================== home search form start ====================*/
@@ -2434,4 +2436,5 @@ button {
 .header_area .media {
   flex-direction: row-reverse;
 }
+
 /*============ End Blog Single Styles  =============*/

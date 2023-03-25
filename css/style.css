@@ -898,6 +898,7 @@ button {
 }
 .card-explore .card-img {
   border-radius: 0;
+  height: 225px;
 }
 .card-explore__img {
   width: 100%;

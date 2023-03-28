@@ -750,14 +750,14 @@ button {
   z-index: 99;
 }
 .carousel-item div h1 {
-  color: black;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
 .carousel-item div h5 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   letter-spacing: 1px;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
 /* .carousel-control-next, .carousel-control-prev {
   z-index: 999;
